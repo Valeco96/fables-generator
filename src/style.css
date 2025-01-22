@@ -1,0 +1,20 @@
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+button {
+  background-color: whitesmoke;
+  padding: 15px;
+  border-radius: 6px;
+  display: block;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 12px;
+}
