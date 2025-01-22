@@ -3,6 +3,17 @@ h1 {
   text-align: center;
 }
 
+form {
+  text-align: center;
+  margin: 40px;
+}
+
+#search-bar {
+  padding: 15px;
+  border-radius: 6px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 button {
   background-color: whitesmoke;
   padding: 15px;
@@ -10,6 +21,11 @@ button {
   display: block;
   margin: 0 auto;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+div {
+  text-align: center;
+  margin-top: 20px;
 }
 
 footer {

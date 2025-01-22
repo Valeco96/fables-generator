@@ -1,5 +1,5 @@
 function buttonResponse() {
-  alert("Yo fancy babies");
+  alert("You wanted the fable, not yet there sowwy");
 }
 
 let button = document.querySelector("button");
