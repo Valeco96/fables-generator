@@ -4,41 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
-    <title>Fables Generator</title>
+    <title>AI Fables Generator</title>
   </head>
   <body>
-    <header>
-      <h1>📖 Fables Generator 📖</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the fairy tail here"
-          id="search-bar"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <button>Click to generate an amazing and fantastic fable</button>
-      <div>The text will go here..</div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Valeco96" target="_blank"
-        >Valentina Correale</a
-      >
-      and is
-      <a href="https://github.com/Valeco96/fables-generator" target="_blank"
-        >open-sourced on Github</a
-      >
-      and hosted on
-      <a href="https://ai-fables-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>📖 AI Fables Generator 📖</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the fairy tail here"
+            class="search-bar"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="fable">
+          The text will go here..
+          <br />
+          and also here :D
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Valeco96" target="_blank"
+          >Valentina Correale</a
+        >
+        and is
+        <a href="https://github.com/Valeco96/fables-generator" target="_blank"
+          >open-sourced on Github</a
+        >
+        and hosted on
+        <a href="https://ai-fables-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/javascript.js"></script>
   </body>
 </html>
