@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>AI Fables Generator</title>
   </head>
   <body>
@@ -17,8 +18,9 @@
         <form id="fable-generator">
           <input
             type="text"
-            placeholder="Enter the topic of the fairy tail here"
+            placeholder="Enter the plot or main character of your fairy tail here"
             class="search-bar"
+            id="user-input"
             autofocus
             required
             autocomplete="off"
