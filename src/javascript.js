@@ -1,6 +1,12 @@
-function buttonResponse() {
-  alert("You wanted the fable, not yet there sowwy");
+function generateFable(event) {
+  event.preventDefault();
+
+  new Typewriter("#fable", {
+    strings: "Generating your marvellous fable right now...",
+    autoStart: true,
+    delay: 50,
+  });
 }
 
-let button = document.querySelector("button");
-button.addEventListener("click", buttonResponse);
+let fableFormElement = document.querySelector("#fable-generator");
+fableFormElement.addEventListener("submit", generateFable);
