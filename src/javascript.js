@@ -2,7 +2,7 @@ function displayFable(response) {
   new Typewriter("#fable", {
     strings: response.data.answer,
     autoStart: true,
-    delay: 40,
+    delay: 30,
   });
 }
 
