@@ -18,6 +18,7 @@ function generateFable(event) {
 
   let fableElement = document.querySelector("#fable");
   fableElement.classList.remove("hidden");
+  fableElement.innerHTML = `⌛ Generating a nice fable about ${instructionsInput.value} for you...`;
 
   axios.get(apiUrl).then(displayFable);
 }
